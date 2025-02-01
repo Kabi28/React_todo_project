@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 34, 34);
+    color: wheat;
+    height: 60px;
+    text-align: center;
+}
+
+

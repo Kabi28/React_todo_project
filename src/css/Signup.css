@@ -1,0 +1,40 @@
+.container{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid navy;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 70vh;
+}
+form{
+    width: 90%;
+    padding: 10px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px;
+
+}
+button{
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 5px;
+}
+input{
+    border-radius: 5px;
+    outline: none;
+}
+
+@media (max-width:760px) {
+    .container{
+        min-width: 96%;
+        margin: 1rem auto;
+        padding: 0;
+        
+    }
+    
+}
